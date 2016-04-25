@@ -179,3 +179,21 @@ footer p {
 	background: url(../images/placeHolder5.jpg);
 	background-size: cover;
 }
+
+/* Contact Form */
+
+input {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+input[type = "submit"] {
+	background-color: #4aaaa5;
+	padding-top:20px;
+	padding-bottom: 15px;
+	width: 100px;
+	color: white;
+	border: 0px;
+	font-size: 15px;
+}
