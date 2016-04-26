@@ -52,6 +52,11 @@ ul li {
 	font-size: 20px;
 }
 
+ul a:hover {
+	background-color: #4aaaa5;
+	padding: 35px 10px;
+}
+
 a {
 	text-decoration: none;
 	color: #777777;
@@ -134,7 +139,7 @@ footer p {
 	color:#c2cccc;
 }
 
-/* Portfolio Page */
+/* Portfolio projects */
 
 .portfolio {
 	display: inline-block;
@@ -156,7 +161,7 @@ footer p {
 #hangman {
 	background: url(../images/placeHolder1.jpg);
 	background-size: cover;
-	margin-right: 50px;
+	margin-right: 53px;
 }
 
 #rpg {
@@ -188,12 +193,14 @@ input {
 	margin-bottom: 10px;
 }
 
+
+
 input[type = "submit"] {
 	background-color: #4aaaa5;
-	padding-top:20px;
+	padding-top:15px;
 	padding-bottom: 15px;
 	width: 100px;
 	color: white;
 	border: 0px;
-	font-size: 15px;
+	font-size: 18px;
 }
