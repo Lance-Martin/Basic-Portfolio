@@ -193,6 +193,15 @@ input {
 	margin-bottom: 10px;
 }
 
+input[type= "text"] {
+	padding: 5px;
+}
+
+#message {
+	height: 300px;
+	width: 100%;
+}
+
 
 
 input[type = "submit"] {
