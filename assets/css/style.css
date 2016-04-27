@@ -35,6 +35,11 @@ h2 {
 
 /* navigation bar */
 
+.nav {
+	width: 960px;
+	margin:auto;
+}
+
 header {
 	background-color: #ffffff;
 	border-bottom: solid 2px #cccccc;
@@ -48,14 +53,12 @@ header h1 {
 	background-color: #4aaaa5;
 	padding: 30px 15px;
 	float: left;
-	margin-left: 19.5%;
 	margin-top: 0;
 	height: 98px;
 }
 
 ul {
 	float:right;
-	margin-right:19.5%;
 	list-style: none;
 }
 
@@ -82,9 +85,8 @@ aside {
 	width: 270px;
 	height: 180px;
 	text-align: center;
-	clear: right;
+	clear: both;
 	float: right;
-	margin-right: 19.5%;
 	background-color: #ffffff;
 	border: solid 1px #dddddd;
 }
@@ -107,12 +109,15 @@ aside img {
 
 /* Main content */
 
+.width {
+	width: 960px;
+	margin: auto;
+}
 section {
 	width: 650px;
 	clear: left;
 	float :left;
 	border: 1px solid #dddddd;
-	margin-left: 19.5%;
 	margin-bottom: 40px;
 	background-color: #ffffff;
 }
